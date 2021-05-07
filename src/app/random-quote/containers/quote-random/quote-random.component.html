@@ -1,0 +1,22 @@
+<section class="random-quote" *ngIf="quote">
+  <div class="quote-text">
+    <blockquote>
+      <p>&ldquo;{{ quote.text }}&rdquo;</p>
+    </blockquote>
+  </div>
+
+  <div class="quote-box" (click)="getQuotesByAuthor()">
+    <div class="quote-author-box">
+      <div class="quote-author">
+        <span>{{ quote.author }}</span>
+      </div>
+      <div class="quote-genre">
+        <span>{{ quote.genre }}</span>
+      </div>
+    </div>
+
+    <div class="quote-arrow">
+      <span class="material-icons">arrow_right_alt</span>
+    </div>
+  </div>
+</section>

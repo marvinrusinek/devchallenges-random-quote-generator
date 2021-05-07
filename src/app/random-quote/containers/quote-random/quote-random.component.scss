@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.quote-box {
+  display: flex;
+  padding: 50px 0 74px 30px;
+  margin-top: 32px;
+  margin-left: -30px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $gray-black;
+
+    .quote-author {
+      font: 700 24px "Raleway", sans-serif;
+      color: $very-light-gray;
+    }
+
+    .quote-arrow {
+      color: $very-light-gray;
+    }
+  }
+
+  .quote-arrow {
+    flex-grow: 1;
+    text-align: end;
+    padding-top: 8px;
+    margin-right: 50px;
+    color: $white;
+  }
+}
+
+.quote-genre {
+  font: 500 14px "Raleway", sans-serif;
+  color: $battleship-gray;
+  padding-top: 10px;
+}

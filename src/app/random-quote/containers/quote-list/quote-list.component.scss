@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.quote-list-author {
+  font: 700 36px "Raleway", sans-serif !important;
+  color: $gray-black;
+
+  &:hover {
+    cursor: unset;
+  }
+}
+
+.quote-list-element {
+  margin-top: 100px;
+}

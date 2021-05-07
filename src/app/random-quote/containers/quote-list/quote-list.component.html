@@ -1,0 +1,13 @@
+<section class="quote-list">
+  <div class="quote-author quote-list-author">
+    <span>{{ quoteAuthor }}</span>
+  </div>
+
+  <div *ngFor="let quote of quotes$ | async">
+    <div class="quote-text quote-list-element">
+      <blockquote>
+        <p>&ldquo;{{ quote.text }}&rdquo;</p>
+      </blockquote>
+    </div>
+  </div>
+</section>
