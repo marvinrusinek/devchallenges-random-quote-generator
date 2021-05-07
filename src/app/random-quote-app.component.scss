@@ -21,7 +21,7 @@
     border: none;
 
     & :first-child {
-      font-size: 18px;
+      font: 500 18px "Raleway", sans-serif;
       color: $light-black;
       margin-right: 4px;
     }
@@ -29,10 +29,6 @@
     & :last-child {
       height: 18px;
       width: 18px;
-    }
-
-    span:nth-child(1) {
-
     }
   }
 }
